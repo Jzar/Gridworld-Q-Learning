@@ -1,9 +1,18 @@
 # Gridworld-Q-Learning
 This notebook provides a custom implementation of Gridworld.
 
+Written in Python 2
 
 ### Dependencies
 - Numpy
+- Jupyter ( optional )
+
+### Installation
+
+- In a directory of your choosing , git clone the repository. 
+- To experiement with the models, open the jupyter notebook
+- To run the test suite, navigate into the Girdworld-Q-Learning directory, and run test.py in shell, or otherwise
+- Depending on which version of python is you default, you may have to use python2 in shell, as this is implemented in python2
 
 ### Usage
 - Notebook as cell with implementation of a Gridworld class
