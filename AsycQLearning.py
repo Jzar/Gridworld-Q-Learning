@@ -12,6 +12,7 @@ import random
 import numpy as np
 import time
 
+#Environment and hyperparameters
 env = Gridworld()
 A = env.actions
 random.seed(41)
@@ -27,6 +28,7 @@ AsyncUpdate = 5
 Q = np.zeros([env.board_length*env.board_height,len(env.actions)])
 S = range(env.board_length*env.board_height)
 T = 0
+
 #make writing to global Q thread safe with Semaphore
 writingQ = Semaphore(1)
 
@@ -69,15 +71,3 @@ class agent(Thread):
         self.delta_Q = np.zeros([env.board_length*env.board_height,len(env.actions)])
  
         writingQ.release()
-a1 = agent(alpha,epsilon,gamma,n_episodes,S,A)
-a2 = agent(alpha,epsilon,gamma,n_episodes,S,A)
-a3 = agent(alpha,epsilon,gamma,n_episodes,S,A)
-
-
-a1.start()
-a2.start()
-a3.start()
-
-a1.join()
-a2.join()
-a3.join()
