@@ -17,7 +17,7 @@ The purpose of this project is to provide an understanding of the underlying alg
 
 ### Model Evaluation
 
-![Gridworld](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/Gridworld.jpg)
+![Gridworld](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/Gridworld.png)
 
 In this implementation of Gridworld, there is one path to the final goal state, with a choke point. The model must learn to pass 
 through a single state in order to reach the goal. Following 2000 games, the Gridworld then changes its obstacles, forcing the 
@@ -26,14 +26,14 @@ still perform random actions not in its policy ( in this case, 20% of the time f
 
 
 
-![Single Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/model1-Performance.jpg)
+![Single Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/model1-Performance.png)
 
 
-![3 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/model2-Performance.jpg)
+![3 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/model2-Performance.png)
 
 ![4 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/Model2-4agents.png)
 
-![4 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/model2-5agents.jgp)
+![4 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/model2-5agents.png)
 
 
 As indicated by the above graphs, as the number of agents increase, so does the average performance of the agent.
