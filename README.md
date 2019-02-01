@@ -49,3 +49,13 @@ Single Agent
 
 
 As indicated by the above graphs, as the number of agents increase, so does the average performance of the agent, but with diminishing returns for each new agent
+
+### Using the notebook/files
+
+If you choose to explore using the provided notebook:
+  - In order to see the gameboard, and the moves your agent are making, uncomment the "self.board()" lines in the Gridworld class
+    - (Just a note, the model will make severl hundred thousand moves on its first 1-2 moves, so do this at your own warning)
+  - Hyperparameters and Q functions are globally defined, make sure to clear the Q function / adjust hyperparameters in a new cell before setting up a new Async Model
+  
+
+I'm open to feedback on the implementation --- I am a student trying to learn, so feel free to contact me 
