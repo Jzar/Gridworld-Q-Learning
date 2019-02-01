@@ -40,7 +40,7 @@ Single Agent
 
 
 
-![4 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/Model2-4agents.png)
+![4 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/Model2-4Agents.png)
 
 
 5 Agent
@@ -48,4 +48,4 @@ Single Agent
 ![4 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/Model2-5agents.png)
 
 
-As indicated by the above graphs, as the number of agents increase, so does the average performance of the agent.
+As indicated by the above graphs, as the number of agents increase, so does the average performance of the agent, but with diminishing returns for each new agent
