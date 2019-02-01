@@ -24,16 +24,19 @@ through a single state in order to reach the goal. Following 2000 games, the Gri
 agent to adapt to the new environment. Through utilizing a random epsilon-greedy policy, the model is able to adapt, as it will
 still perform random actions not in its policy ( in this case, 20% of the time for Model 1, 50% for model 2)
 
-
+Single Agent
 
 ![Single Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/model1-Performance.png)
 
-
+3 Agent
 ![3 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/model2-performance.png)
 
-![4 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/Model2-4agents.png)
+4 Agent 
 
-![4 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/model2-5agents.png)
+![4 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/Model2-4agents.png)
+5 Agent
+
+![4 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/Model2-5agents.png)
 
 
 As indicated by the above graphs, as the number of agents increase, so does the average performance of the agent.
