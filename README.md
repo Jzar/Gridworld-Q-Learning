@@ -29,7 +29,7 @@ still perform random actions not in its policy ( in this case, 20% of the time f
 ![Single Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/model1-Performance.png)
 
 
-![3 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/model2-Performance.png)
+![3 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/model2-performance.png)
 
 ![4 Agent Q-Learning](https://raw.githubusercontent.com/Jzar/Gridworld-Q-Learning/master/Model2-4agents.png)
 
